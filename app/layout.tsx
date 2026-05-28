@@ -1,6 +1,6 @@
+// FILE 1: app/layout.tsx
 export const metadata = {
   title: "Vertical TV Pipeline",
-  description: "Micro Drama Script Analysis Dashboard",
 };
 
 export default function RootLayout({ children }) {
