@@ -1,4 +1,3 @@
-// FILE 1: app/layout.tsx
 export const metadata = {
   title: "Vertical TV Pipeline",
 };
