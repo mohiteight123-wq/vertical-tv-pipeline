@@ -1,11 +1,3 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  react: {
-    strict: true,
-  },
-  experimental: {
-    typedRoutes: true,
-  },
-};
-
+// FILE 3: next.config.js
+const nextConfig = {};
 module.exports = nextConfig;
