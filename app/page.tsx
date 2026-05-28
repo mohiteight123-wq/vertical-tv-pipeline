@@ -1,11 +1,11 @@
 export default function Home() {
-    return (
-          <main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
-                <div className="container mx-auto px-4 py-20">
-                        <h1 className="text-5xl font-bold mb-4">Vertical TV Pipeline</h1>h1>
-                        <p className="text-xl text-gray-300 mb-8">Micro Drama Script Analysis Dashboard</p>p>
-                        <p className="text-lg text-gray-400">Powered by AI and Next.js</p>p>
-                </div>div>
-          </main>main>
-        );
-}</main>
+  return (
+    <div style={{ minHeight: '100vh', background: 'linear-gradient(to bottom, #111827, #1f2937)', color: 'white', padding: '2rem' }}>
+      <div style={{ maxWidth: '56rem', margin: '0 auto' }}>
+        <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem' }}>Vertical TV Pipeline</h1>
+        <p style={{ fontSize: '1.25rem', color: '#d1d5db', marginBottom: '0.5rem' }}>Micro Drama Script Analysis Dashboard</p>
+        <p style={{ fontSize: '1.125rem', color: '#9ca3af' }}>Powered by AI and Next.js</p>
+      </div>
+    </div>
+  );
+}
